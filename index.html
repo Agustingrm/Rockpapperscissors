@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock, Papper and Scissors</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+ </head>
+
+<body>
+    <h1>Rock, Papper & Scissors</h1>
+    <div><p id='howToWin'>First to 5 wins, wins the game</p></div>
+    <div id="arenabattle">
+        <div id="left">
+            <div id="top">
+                <p class="player">Human</p>
+            </div>
+            <div id="bottom">
+                <button id="rock" class="options" ><img src="rock.svg" alt="rock"></button>
+                <button id="papper" class="options" ><img src="papper.svg" alt="papper"></button>
+                <button id="scissors" class="optionsScissors"><img src="scissors.svg" alt="scissors"></button>
+            </div>
+        </div>
+        <div id="board">
+            <div class="score"><p id="humanScore"></p></div>
+            <div class="score"><p id="computerScore"></p></div>
+        </div>
+        <div id="right">
+            <div id="top">
+                <p class="player">Robot</p>
+            </div>
+            <div id="bottom">
+                <div class="options"><img src="rock.svg" alt="rock"></div>
+                <div class="options"><img src="papper.svg" alt="papper"></div>
+                <div class="optionsScissors"><img src="scissors.svg" alt="scissors"></div>
+            </div>
+        </div>
+    </div>
+    <div id='newGameCenter'><button id="newGame">New Game</button></div>
+    <div id='result'><p id='textOutcome'></p></div>
+    <script src="javascript.js"></script>
+</body>
+</html>
