@@ -129,12 +129,13 @@ button:focus {
 @media all and (min-width: 600px) and (max-width: 1023px) and (orientation:landscape){
 
 h1 {
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 50px;
 }
 
 #arenabattle {
     width: 580px;
+    margin-top: 50px;
 }
 
 #left, #right {
@@ -186,11 +187,9 @@ button:hover {
         align-items:center;
     }
     
-  
-
     
     #board {
-        margin: 50px;
+        margin: 75px;
         height: 75px;
         width: 120px;
     }
